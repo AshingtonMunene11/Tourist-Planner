@@ -1,5 +1,5 @@
 import axios from 'axios';
-const BASE = 'http://localhost:3000/tours';
+const BASE = 'http://localhost:3001/tours';
 
 export const getTours = () => axios.get(BASE);
 export const addTour = (tour) => axios.post(BASE, tour);

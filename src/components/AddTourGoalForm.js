@@ -19,7 +19,7 @@ function AddTourGoalForm({ onAddTour }) {
       createdAt: new Date().toISOString().split("T")[0],
     };
 
-    fetch("http://localhost:3000/tours", {
+    fetch("https://json-server-1-7yyc.onrender.com/tours", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newTour),

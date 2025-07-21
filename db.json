@@ -1,0 +1,13 @@
+{
+  "tours": [
+    {
+      "id": "6076",
+      "name": "maembe",
+      "targetAmount": "1000",
+      "category": "Safari",
+      "deadline": "2025-07-31",
+      "savedAmount": 20900,
+      "createdAt": "2025-07-21"
+    }
+  ]
+}
