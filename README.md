@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 🌍 Smart Tour Budget Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web app that helps users visualize and manage their savings towards dream vacations. Select a tour, set a budget, track deposits, and take control of your travel goals — all in a clean, user-friendly interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🗺️ Browse a list of exciting tour destinations
+- 💰 Deposit funds and track your saved amount per tour
+- 🎯 Update budgets dynamically and visualize progress
+- 🌒 Optional dark mode for aesthetic comfort
+- 🔄 Real-time state updates via React Context & Fetch API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧱 Tech Stack
 
-### `npm test`
+| Tool          | Role                            |
+|---------------|----------------------------------|
+| React         | UI rendering and state handling  |
+| Context API   | Global state management          |
+| Fetch API     | Server communication             |
+| Node & Express| Backend tour data mock API       |
+| CSS / Modules | Styling (dark/light themes)      |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠 Setup & Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repository**
+```bash
+https://github.com/AshingtonMunene11/Tourist-Planner
+cd Tourist-Planner
+npm install
+npm start
+npm run server
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Preview
+<img width="1358" height="628" alt="image" src="https://github.com/user-attachments/assets/6ea0a773-df6c-4f74-9b4f-b8f1de0994c2" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
+/src
+  ├── components/
+  │   ├── TourList.js
+  │   ├── DepositForm.js
+  │   └── BudgetTracker.js
+  ├── context/
+  │   └── TourProvider.js
+  ├── App.js
+  └── index.js
 
-### `npm run eject`
+## 📜 License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+&copy; 2025 Ashington Munene — Moringa School.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
