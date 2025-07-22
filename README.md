@@ -34,7 +34,7 @@ https://github.com/AshingtonMunene11/Tourist-Planner
 cd Tourist-Planner
 npm install
 npm start
-npm run server
+npm start
 ```
 
 ## Preview
