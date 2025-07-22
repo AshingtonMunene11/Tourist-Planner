@@ -9,7 +9,6 @@ A React-based web app that helps users visualize and manage their savings toward
 - 🗺️ Browse a list of exciting tour destinations
 - 💰 Deposit funds and track your saved amount per tour
 - 🎯 Update budgets dynamically and visualize progress
-- 🌒 Optional dark mode for aesthetic comfort
 - 🔄 Real-time state updates via React Context & Fetch API
 
 ---
